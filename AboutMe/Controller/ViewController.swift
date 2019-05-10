@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 //        print("My name is Enayat")
-        
+        //Empty label
         nameLabel.text = ""
         hobbiesLabel.text = ""
     
