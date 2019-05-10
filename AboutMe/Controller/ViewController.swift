@@ -19,11 +19,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 //        print("My name is Enayat")
         
-        nameLabel.text = "Enayatullah"
-        hobbiesLabel.text = "Cricket"
+        nameLabel.text = ""
+        hobbiesLabel.text = ""
     
     }
-
+    @IBAction func introduceButtonTapped(_ sender: UIButton) {
+        nameLabel.text = "Enayatullah"
+        hobbiesLabel.text = "Cricket"
+    }
+    
 
 }
 
